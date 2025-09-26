@@ -1,46 +1,29 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Date Translate
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A Flutter package for formatting dates and displaying localized "time ago" strings in Khmer and English.  
+Designed for easy integration with Flutter apps using `intl` and Flutter's localization system.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Format `DateTime` objects in a localized manner.
+- Display "time ago" strings like `"5 minutes ago"` or `"5 នាទីមុន"`.
+- Format full dates with time.
+- Detailed date formatting (e.g., `"September 26, 2025 • 3:15 PM"`).
+- Compatible with Flutter localization (`gen-l10n`) and `intl`.
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Installation
 
-## Usage
+### From GitHub
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Add the dependency in your `pubspec.yaml`:
 
-```dart
-import 'package:date_helper/date_helper.dart';
-
-Text(
-  DateHelper.formatTimeAgo(
-    context,
-    DateTime.now().subtract(const Duration(minutes: 5)),
-  ),
-),
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  date_translate:
+    git:
+      url: https://github.com/PanhaGit/date_translate.git
+      ref: main
