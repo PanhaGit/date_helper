@@ -1,0 +1,24 @@
+{
+  "@@locale": "en",
+  "unknownTime": "Unknown time",
+  "justNow": "Just now",
+  "minutesAgo": "{minutes} minutes ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "hoursAgo": "{hours} hours ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "daysAgo": "{days} days ago",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "unknownDate": "Unknown date"
+}

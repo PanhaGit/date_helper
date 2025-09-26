@@ -1,0 +1,24 @@
+{
+  "@@locale": "km",
+  "unknownTime": "ពេលវេលាមិនស្គាល់",
+  "justNow": "ទើបតែ",
+  "minutesAgo": "{minutes} នាទីមុន",
+  "@minutesAgo": {
+    "placeholders": {
+      "minutes": {}
+    }
+  },
+  "hoursAgo": "{hours} ម៉ោងមុន",
+  "@hoursAgo": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "daysAgo": "{days} ថ្ងៃមុន",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "unknownDate": "កាលបរិច្ឆេទមិនស្គាល់"
+}
