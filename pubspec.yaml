@@ -1,7 +1,8 @@
 name: date_helper
 description: "A Flutter package to translate and format dates with multi-language support"
 version: 0.0.1
-homepage: https://github.com/PanhaGit/date_helper.git
+homepage: https://github.com/PanhaGit/date_translate.git
+repository: https://github.com/PanhaGit/date_translate.git
 
 environment:
   sdk: ">=3.8.1 <4.0.0"

@@ -8,7 +8,7 @@ import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'l10n/app_localizations.dart';
 
-class DateHelper {
+class DateTranslate {
   static String formatDateTime(BuildContext context, DateTime dateTime) {
     final locale = Localizations.localeOf(context).toString();
     final formatter = DateFormat('MMM dd, yyyy - hh:mm a', locale);
