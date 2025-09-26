@@ -29,7 +29,14 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+import 'package:date_helper/date_helper.dart';
+
+Text(
+  DateHelper.formatTimeAgo(
+    context,
+    DateTime.now().subtract(const Duration(minutes: 5)),
+  ),
+),
 ```
 
 ## Additional information
